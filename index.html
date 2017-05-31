@@ -1,1 +1,66 @@
-<!DOCTYPE html><html> <head> <title>Location and Weather</title> <meta content="text/html; charset=UTF-8" http-equiv="content-type"> <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> <link rel="stylesheet" type="text/css" href="style/reset.min.css"> <link rel="stylesheet" type="text/css" href="style/style.css"> </head> <body onload="geoFindMe()"> <div class="header" id="header"> <div class="degree"> <button type="button" name="button" class="F" id="F" value="F"></button> <button type="button" name="button" class="C" id="C" value="C"></button> </div></div><div class="outer"> <div class="middle"> <div class="inner"> <div class="content" id="content"> <div class="location" id="location"><span id="city"></span></div><div class="time"><span class="currentTime" id="currentTime"></span></div><div class="weatherLogo" id="weatherLogo"> <span id="logo"></span> </div><div class="temp" id="temp"><span class="tempNum" id="tempNum"></span></div><div class="sky"> <span class="skyType" id="skyType"></span> </div></div><div class="bottomDiv"> <div class="wind"> <div class="windDiv"> <div class="windIcon"></div></div><div class="windData"></div></div><div class="humidity"> <div class="humidityDiv"> <div class="humidityIcon"></div></div><div class="humidityData"></div></div></div></div></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="functions/functions.js"></script> </body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Location and Weather</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+	<!-- Style -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+  <body onload="geoFindMe()">
+
+    <div class="header" id="header">
+      <div class="degree">
+        <button type="button" name="button" class="F" id="F" value="F"></button>
+        <button type="button" name="button" class="C" id="C" value="C"></button>
+      </div>
+    </div>
+
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+
+          <div class="content" id="content">
+            <div class="location" id="location"><span id="city"></span></div>
+            <div class="time"><span class="currentTime" id="currentTime"></span></div>
+
+            <div class="weatherLogo" id="weatherLogo">
+              <span id="logo"></span>
+            </div>
+
+            <div class="temp" id="temp"><span class="tempNum" id="tempNum"></span></div>
+            <div class="sky">
+              <span class="skyType" id="skyType"></span>
+            </div>
+          </div>
+
+          <div class="bottomDiv">
+
+            <div class="wind">
+              <div class="windDiv">
+                <div class="windIcon"></div>
+              </div>
+              <div class="windData"></div>
+            </div>
+
+            <div class="humidity">
+              <div class="humidityDiv">
+                <div class="humidityIcon"></div>
+              </div>
+              <div class="humidityData"></div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+	<!-- Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="functions/functions.js"></script>
+  </body>
+</html>
