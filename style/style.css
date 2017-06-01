@@ -82,11 +82,21 @@ button {
     width: /*whatever width you want*/;
 }
 
-
 .content {
   width: 100%;
 }
 /* location */
+.geoData {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#anotherData {
+  font-size: 11px;
+}
+
 .location {
   width: 100%;
   height: 28px;

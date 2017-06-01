@@ -15,6 +15,8 @@ var humidityLogo = '<svg class="windLogo" version="1.1" id="Layer_1" xmlns="http
 
 var thunder = '<svg class="weatherIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve"><g><g><g><path class="fill" d="M413.968,118.948C402.968,54.036,346.464,5.852,280,5.852c-60.16,0-112.6,39.232-129.944,96.272c-2.048-0.184-4.072-0.272-6.056-0.272c-24.032,0-46.56,12.184-59.856,32.08C37.4,135.964,0,174.62,0,221.852c0,48.52,39.48,88,88,88v-16c-39.704,0-72-32.304-72-72s32.296-72,71.688-72.008l5.536,0.04l2.304-3.992c10.008-17.296,28.592-28.04,48.472-28.04c3.352,0,6.856,0.336,10.424,1.008l7.424,1.4l1.824-7.336C176.96,59.3,224.8,21.852,280,21.852c60.512,0,111.672,45.28,119.008,105.32l0.56,4.592c0.272,3.328,0.432,6.688,0.432,10.088c0,66.168-53.832,120-120,120v16c74.992,0,136-61.008,136-136c0-2.12-0.176-4.2-0.272-6.296C452.432,142.94,480,175.62,480,213.852c0,44.112-35.888,80-80,80v16c52.936,0,96-43.064,96-96C496,166.276,460.464,125.78,413.968,118.948z"/><rect class="fill" x="104.023" y="307.96" transform="matrix(0.8944 0.4472 -0.4472 0.8944 157.5498 -15.6973)" width="16" height="35.775"/><rect class="fill" x="79.981" y="355.987" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 -0.5291 747.6239)" width="15.999" height="35.775"/><rect class="fill" x="56.019" y="403.958" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 -67.3761 827.7858)" width="15.999" height="35.775"/><rect class="fill" x="31.978" y="451.961" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 -134.3881 907.9729)" width="16" height="35.775"/><rect class="fill" x="150.098" y="317.849" transform="matrix(0.4472 -0.8944 0.8944 0.4472 -198.5879 330.3757)" width="35.775" height="16"/><rect class="fill" x="135.984" y="355.965" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 105.5769 772.6271)" width="16" height="35.775"/><rect class="fill" x="111.983" y="403.952" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 38.6449 852.8013)" width="15.999" height="35.775"/><rect class="fill" x="87.981" y="451.963" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 -28.2956 933.0211)" width="15.999" height="35.775"/><rect class="fill" x="311.984" y="307.973" transform="matrix(0.8944 0.4472 -0.4472 0.8944 179.5092 -108.6988)" width="16" height="35.775"/><rect class="fill" x="287.983" y="355.952" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 393.5303 840.5787)" width="15.999" height="35.775"/><rect class="fill" class="fill" x="263.989" y="404.003" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 326.587 920.8778)" width="15.999" height="35.775"/><rect class="fill" x="239.979" y="451.966" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 259.6536 1001.0031)" width="16" height="35.775"/><rect class="fill" x="368.003" y="307.974" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 566.5801 785.4752)" width="15.999" height="35.775"/><rect class="fill" x="343.962" y="355.969" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 499.5718 865.6465)" width="16" height="35.775"/><rect class="fill" x="320" y="403.997" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 432.6999 945.9146)" width="16" height="35.775"/><rect class="fill" x="295.959" y="451.968" transform="matrix(-0.8944 -0.4472 0.4472 -0.8944 365.7005 1026.0409)" width="15.999" height="35.775"/><polygon class="fill" points="198.136,389.852 238.856,321.972 225.144,313.732 169.864,405.852 217.432,405.852 169.248,481.556 182.752,490.148 246.568,389.852 "/></g></g></g></svg>';
 
+var mist = '<svg class="weatherIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><g><path class="fill" d="M42.667,187.733h273.067c4.719,0,8.533-3.823,8.533-8.533s-3.814-8.533-8.533-8.533H42.667c-4.719,0-8.533,3.823-8.533,8.533S37.948,187.733,42.667,187.733z"/><path class="fill" d="M247.467,273.067H59.733c-4.719,0-8.533,3.823-8.533,8.533c0,4.71,3.814,8.533,8.533,8.533h187.733c4.719,0,8.533-3.823,8.533-8.533C256,276.89,252.186,273.067,247.467,273.067z"/><path class="fill" d="M119.467,230.4c0-4.71-3.814-8.533-8.533-8.533H8.533C3.814,221.867,0,225.69,0,230.4c0,4.71,3.814,8.533,8.533,8.533h102.4C115.652,238.933,119.467,235.11,119.467,230.4z"/><path class="fill" d="M93.867,136.533h119.467c4.719,0,8.533-3.823,8.533-8.533c0-4.71-3.814-8.533-8.533-8.533H93.867c-4.719,0-8.533,3.823-8.533,8.533C85.333,132.71,89.148,136.533,93.867,136.533z"/><path class="fill" d="M238.933,128c0,4.71,3.814,8.533,8.533,8.533H435.2c4.719,0,8.533-3.823,8.533-8.533c0-4.71-3.814-8.533-8.533-8.533H247.467C242.748,119.467,238.933,123.29,238.933,128z"/><path class="fill" d="M349.867,170.667c-4.719,0-8.533,3.823-8.533,8.533s3.814,8.533,8.533,8.533h68.267c4.719,0,8.533-3.823,8.533-8.533s-3.814-8.533-8.533-8.533H349.867z"/><path class="fill" d="M179.2,85.333h221.867c4.719,0,8.533-3.823,8.533-8.533s-3.814-8.533-8.533-8.533H179.2c-4.719,0-8.533,3.823-8.533,8.533S174.481,85.333,179.2,85.333z"/><path class="fill" d="M469.333,273.067H281.6c-4.719,0-8.533,3.823-8.533,8.533c0,4.71,3.814,8.533,8.533,8.533h187.733c4.719,0,8.533-3.823,8.533-8.533C477.867,276.89,474.052,273.067,469.333,273.067z"/><path class="fill" d="M418.133,375.467H247.467c-4.719,0-8.533,3.823-8.533,8.533s3.814,8.533,8.533,8.533h170.667c4.719,0,8.533-3.823,8.533-8.533S422.852,375.467,418.133,375.467z"/><path class="fill" d="M366.933,426.667H145.067c-4.719,0-8.533,3.823-8.533,8.533s3.814,8.533,8.533,8.533h221.867c4.719,0,8.533-3.823,8.533-8.533S371.652,426.667,366.933,426.667z"/><path class="fill" d="M503.467,221.867h-358.4c-4.719,0-8.533,3.823-8.533,8.533c0,4.71,3.814,8.533,8.533,8.533h358.4c4.719,0,8.533-3.823,8.533-8.533C512,225.69,508.186,221.867,503.467,221.867z"/><path class="fill" d="M93.867,324.267c-4.719,0-8.533,3.823-8.533,8.533s3.814,8.533,8.533,8.533h68.267c4.719,0,8.533-3.823,8.533-8.533s-3.814-8.533-8.533-8.533H93.867z"/><path class="fill" d="M221.867,384c0-4.71-3.814-8.533-8.533-8.533h-153.6c-4.719,0-8.533,3.823-8.533,8.533s3.814,8.533,8.533,8.533h153.6C218.052,392.533,221.867,388.71,221.867,384z"/><path class="fill" d="M187.733,332.8c0,4.71,3.814,8.533,8.533,8.533H384c4.719,0,8.533-3.823,8.533-8.533s-3.814-8.533-8.533-8.533H196.267C191.548,324.267,187.733,328.09,187.733,332.8z"/></g></g></g></svg>';
+
 var HEIGHT = $(window).height() - 210;
 $('.outer').css('height', HEIGHT);
 
@@ -29,6 +31,7 @@ function geoFindMe() {
   function success(position) {
     var latitude  = position.coords.latitude;
     var longitude = position.coords.longitude;
+    //45.626397, 20.034187
 
     displayLocation(latitude, longitude);
   }
@@ -51,18 +54,17 @@ function displayLocation(latitude, longitude) {
   request.onreadystatechange = function() {
     if (request.readyState == 4 && request.status == 200) {
       var dataLocation = JSON.parse(request.responseText);
-      console.log(dataLocation);
+      var data = dataLocation.results[0].address_components[1].long_name;
       var city = dataLocation.results[0].address_components[2].long_name;
-      console.log(city);
       var country = dataLocation.results[0].address_components[3].short_name;
 
-      displayWeather(city, country);
+      displayWeather(city, country, data);
     }
   }
   request.send();
 }
 
-function displayWeather(city, country) {
+function displayWeather(city, country, data) {
   var request = new XMLHttpRequest();
 
   var method = 'GET';
@@ -80,16 +82,19 @@ function displayWeather(city, country) {
       var humidity = dataWeather.current.humidity;
       console.log(sky);
 
-      draw(city, country, temperature_C, temperature_F, sky, wind, humidity);
+      draw(city, country, temperature_C, temperature_F, sky, wind, humidity, data);
     }
   }
   request.send();
 }
 
 //DRAW
-function draw(city, country, temperature_C, temperature_F, sky, wind, humidity) {
+function draw(city, country, temperature_C, temperature_F, sky, wind, humidity, data) {
   city = city.toUpperCase();
   $('#city').html(city + ', ' + country);
+
+  data = data.toUpperCase();
+  $('#anotherData').html(data);
 
   $('#tempNum').html(temperature_C + '°C');
 
@@ -105,15 +110,19 @@ function draw(city, country, temperature_C, temperature_F, sky, wind, humidity) 
   } else if (sky == 'overcast') {
     $('body').addClass('overcast');
     $('#logo').html(cloudy);
-  } else if (sky=='light rain' || sky=='light rain shower' || sky=='patchy rain' || sky=='torrential rain shower' || sky=='atchy rain possible') {
+  } else if (sky=='light rain' || sky=='light rain shower' || sky=='patchy rain' || sky=='torrential rain shower' || sky=='atchy rain possible'
+    || sky=='moderate or heavy rain shower') {
     $('body').addClass('lightRain');
     $('#logo').html(rain);
   } else if (sky == 'clear') {
     $('body').addClass('moon');
     $('#logo').html(moon);
-  } else if (sky == 'patchy light rain with thunder' || sky == 'moderate or heavy rain with thunder') {
+  } else if (sky=='patchy light rain with thunder' || sky=='moderate or heavy rain with thunder') {
     $('body').addClass('lightRain');
     $('#logo').html(thunder);
+  } else if (sky == 'mist') {
+    $('body').addClass('lightRain');
+    $('#logo').html(mist);
   }
 
   /* click on C or F */
@@ -139,7 +148,12 @@ function draw(city, country, temperature_C, temperature_F, sky, wind, humidity) 
 function getTime() {
 
   var d = new Date();
-  var time = d.getHours() + ":" + d.getMinutes();
+  var minutes = d.getMinutes();
+  minutes = (minutes<10 ? '0' : '') + minutes;
+  var hours = d.getHours();
+  hours = (hours<10 ? '0' : '') + hours;
+
+  var time = hours + ":" + minutes;
   var day = d.getDay();
 
   switch (day) {
