@@ -51,7 +51,9 @@ function displayLocation(latitude, longitude) {
   request.onreadystatechange = function() {
     if (request.readyState == 4 && request.status == 200) {
       var dataLocation = JSON.parse(request.responseText);
-      var city = dataLocation.results[0].address_components[1].short_name;
+      console.log(dataLocation);
+      var city = dataLocation.results[0].address_components[2].long_name;
+      console.log(city);
       var country = dataLocation.results[0].address_components[3].short_name;
 
       displayWeather(city, country);
@@ -66,7 +68,6 @@ function displayWeather(city, country) {
   var method = 'GET';
   var url = 'http://api.apixu.com/v1/current.json?key=184eb89db65d47278e1110456173105&q='+city;
   var async = true;
-  console.log(url);
 
   request.open(method, url, async);
   request.onreadystatechange = function() {
