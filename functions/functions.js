@@ -54,7 +54,7 @@ function displayLocation(latitude, longitude) {
   request.onreadystatechange = function() {
     if (request.readyState == 4 && request.status == 200) {
       var dataLocation = JSON.parse(request.responseText);
-      var city = dataLocation.results[0].address_components[2].short_name;
+      var city = dataLocation.results[0].address_components[1].short_name;
       var country = dataLocation.results[0].address_components[3].short_name;
 
       displayWeather(city, country);
